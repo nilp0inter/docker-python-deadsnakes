@@ -12,4 +12,4 @@ RUN apt-get update
 
 RUN apt-get install -y python3.4
 RUN apt-get install -y python3.4-dev
-RUN python3.4 -m "ensurepip"
+RUN apt-get install -y python3-pip
